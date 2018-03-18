@@ -1,0 +1,22 @@
+{
+  "name": "renavigation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Astrocoders/renavigation.git",
+  "author": "Medson de Oliveira Junior <medson.oliveira.jr@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.4.0",
+    "bs-platform": "^2.1.0",
+    "jest": "^22.1.4"
+  },
+  "scripts": {
+    "start": "yarn bs:watch",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "bs:build": "bsb -make-world -clean-world",
+    "bs:watch": "bsb -make-world -clean-world -w",
+    "bs:setup": "bsb -make-world"
+  }
+}
